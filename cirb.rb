@@ -41,6 +41,5 @@ end
 
 loop do
   n = Interpreter.new
-  n.read
-  n.output
+  n.read_and_output
 end
