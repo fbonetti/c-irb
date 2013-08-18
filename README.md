@@ -1,4 +1,4 @@
-# Getting started
+## Getting started
 
 This short script is written in Ruby, so you will need to install it if you haven't already. Navigate to the folder containing `cirb.rb` and enter the following:
 
@@ -16,7 +16,7 @@ Will output `39842`
 
 That's it!
 
-# Limitations
+## Limitations
 
 * Only works on windows
 * State is not saved between commands
