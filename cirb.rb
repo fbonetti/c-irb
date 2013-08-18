@@ -20,13 +20,13 @@ class Interpreter
   private
 
   def write_to_file
-    File.open("c_temp.c", "w") do |f|
+    File.open("temp\\c_temp.c", "w") do |f|
       f.puts @file_buffer.string
     end
   end
 
   def compile_and_run
-    system("gcc-3 c_temp.c && a.exe")
+    system("gcc-3 temp\\c_temp.c && a.exe")
     puts
   end
 
